@@ -5,7 +5,9 @@
 }
 
 body {
-	background: #9e0016;	
+	background-image: linear-gradient(to bottom, #9e0016 , #f97083);
+
+	/*background: #9e0016;	*/
 	font-family: 'Roboto', sans-serif;
 }
 
@@ -62,8 +64,8 @@ text-decoration: none;
 	text-align: center;
 	justify-content: space-between;
 	flex-flow: row;
-    color:#ffcb73;
-    font-size:50px;
+    color:#9e0016;
+    font-size:60px;
     font-family: 'Amatic SC', cursive;
 }
 
@@ -106,7 +108,7 @@ text-decoration: none;
 }
 
 #menu a:hover{
-    color:#f30021 ; 
+    color:#f97083 ; 
 } 
 
 #menu ul li a:link { 
@@ -166,7 +168,7 @@ text-decoration: none;
 }
 
 .banner .boton {
-	background: #f97083;
+	background: #9e0016;
 	display: block;
 	width: 100%;
 	font-weight: bold;
